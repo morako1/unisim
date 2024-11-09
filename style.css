@@ -13,12 +13,35 @@ border-radius: 3.5px;
   padding-bottom: 15px;
 }
 
+
+.imgpanel {
+  min-width: 600px;
+  background-color: #eff1f5;
+ 
+border-radius: 3.5px;
+  margin-left: 400px;
+  margin-right: 400px;
+  vertical-align: middle;
+  box-shadow:  0px 0px 20.0px 3.5px rgba(0, 0, 0, 0.058);
+  
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .afacad-flux-regular {
   font-family: "Afacad Flux", arial;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "slnt" 0;
+}
+
+.imageclass{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item {
@@ -35,6 +58,22 @@ margin-right: 5px;
   padding-right: 20px;
 }
 
+
+.imgitem {
+ 
+  min-height: 20px;
+  
+overflow: hidden;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-top: 55px;
+  margin-bottom: 100px;
+margin-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
 .name {
   float:left;
     padding: 0;
@@ -47,4 +86,13 @@ margin-right: 5px;
   margin:0;
  
 }
+
+.label {
+  text-align: center;
+  padding: 0;
+  margin:0;
+ 
+}
+
+
 body{background-color: #67c0e9;}
